@@ -1,214 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!--FONT-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!---->
+    <!--FONT-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!---->
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Nomusa's Personal Portfolio Website</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!--HEADER DESIGN-->
+    <header class="header">
+      <a href="#" class="logo"><i class="fa-regular fa-user"></i></a>
 
-<!--HEADER DESIGN-->
-<header class="header">
-    <a href="#" class="logo"><i class="fa-regular fa-user"></i></a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
-
-    <nav class="navbar">
+      <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#porfolio">Portfolio</a>
         <a href="#contact">Contact</a>
-    </nav>
-</header>
-<!---->
+      </nav>
+    </header>
+    <!---->
 
-<!--HOME SECTION-->
-<section class="home" id="home">
-    <div class="home-content">
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+      <div class="home-content">
         <h3>Hi, I'm</h3>
         <h1>Nomusa K. Mtshali</h1>
-        <h3>And I'm a <span class="multiple-text"></span> </h3>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
         <p></p>
 
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/nomusa-mtshali/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/nomusamtshali"><i class="fa-brands fa-github"></i></a>
-            <a href="https://codepen.io/Kelebogile-Mataboge"><i class="fa-brands fa-codepen"></i></a>
-            <a href="https://x.com/km_mataboge?s=08"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.instagram.com/km.mataboge?igsh=cWt5YzhwMGJxNWNt"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/nomusa-mtshali/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/nomusamtshali"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://codepen.io/Kelebogile-Mataboge"
+            ><i class="fa-brands fa-codepen"></i
+          ></a>
+          <a href="https://x.com/km_mataboge?s=08"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/km.mataboge?igsh=cWt5YzhwMGJxNWNt"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
 
-            <h2>TECH STACKS:</h2>
-            <a href="#"><i class="fa-brands fa-html5"></i></a>
-            <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
-            <a href="#"><i class="fa-brands fa-js"></i></a>
-            <a href="#"><i class="fa-brands fa-node-js"></i></a>
-            <a href="#"><i class="fa-brands fa-react"></i></a>
+          <h2>TECH STACKS:</h2>
+          <a href="#"><i class="fa-brands fa-html5"></i></a>
+          <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+          <a href="#"><i class="fa-brands fa-js"></i></a>
+          <a href="#"><i class="fa-brands fa-node-js"></i></a>
+          <a href="#"><i class="fa-brands fa-react"></i></a>
         </div>
 
-        <a href="https://docs.google.com/document/d/147HhLbjEDYSjGMBZDjTWXiPjCqXW6mXHdVpiCNWMa7g/edit?usp=sharing" class="btn">Download Resume</a>
-    </div>
+        <a
+          href="https://docs.google.com/document/d/147HhLbjEDYSjGMBZDjTWXiPjCqXW6mXHdVpiCNWMa7g/edit?usp=sharing"
+          class="btn"
+          >Download Resume</a
+        >
+      </div>
 
-    <div class="home-img">
-        <img src="./images/nomusa-profile.jpg" alt="nomusa mtshali">
-    </div>
-</section>
-<!---->
+      <div class="home-img">
+        <img src="./images/nomusa-profile.jpg" alt="nomusa mtshali" />
+      </div>
+    </section>
+    <!---->
 
-<!--ABOUT SECTION-->
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="./images/about-nomusa.jpg" alt="picture of Nomusa smiling">
-    </div>
+    <!--ABOUT SECTION-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/about-nomusa.jpg" alt="picture of Nomusa smiling" />
+      </div>
 
-    <div class="about-content">
+      <div class="about-content">
         <h2 class="heading">ABOUT <span>ME</span></h2>
         <h3>Designer & developer based in Rustenburg, North West (ZA)</h3>
-        <p>A 20-year-old with a passion for front-end development and thrilled to be stepping into the world of software development as an entry-level junior developer. With a foundation in programming languages like HTML, CSS, and JavaScript, I'm ready to take on new challenges and expand my skill set. While I may be at the beginning of my career journey, I bring a fresh perspective, enthusiasm, and a hunger for learning to every project I undertake. I thrive in collaborative environments and I'm eager to soak up knowledge from experienced mentors and peers. </p>
-        <p>In essence, I'm a driven, adaptable individual with a love for all things frontend. I'm eager to learn and grow in this career. With every line of code I write, I'm driven by a desire to make a meaningful impact and leave a lasting impression in the digital world.</p>
-    </div>
-</section>
-<!---->
+        <p>
+          A 20-year-old with a passion for front-end development and thrilled to
+          be stepping into the world of software development as an entry-level
+          junior developer. With a foundation in programming languages like
+          HTML, CSS, and JavaScript, I'm ready to take on new challenges and
+          expand my skill set. While I may be at the beginning of my career
+          journey, I bring a fresh perspective, enthusiasm, and a hunger for
+          learning to every project I undertake. I thrive in collaborative
+          environments and I'm eager to soak up knowledge from experienced
+          mentors and peers.
+        </p>
+        <p>
+          In essence, I'm a driven, adaptable individual with a love for all
+          things frontend. I'm eager to learn and grow in this career. With
+          every line of code I write, I'm driven by a desire to make a
+          meaningful impact and leave a lasting impression in the digital world.
+        </p>
+      </div>
+    </section>
+    <!---->
 
+    <!--SERVICES SECTION-->
+    <section class="services" id="services">
+      <h2 class="heading">MY <span>SERVICES</span></h2>
 
-<!--SERVICES SECTION-->
-<section class="services" id="services">
-    <h2 class="heading">MY <span>SERVICES</span></h2>
-
-    <div class="services-container">
+      <div class="services-container">
         <div class="services-box">
-            <i class="fa-solid fa-code"></i>
-            <h3>Website Development</h3>
-            <p>I design and develop responsive websites using HTML, CSS, and JavaScript. I also create visually appealing layouts and user interfaces to enhance user experience. I ensure cross-browser compatibility and mobile responsiveness for seamless access across different devices.</p>
-            <a href="https://github.com/nomusamtshali/Cache-Bank-Business-Landing-Web-Page.git" class="btn">View More</a>
-
+          <i class="fa-solid fa-code"></i>
+          <h3>Website Development</h3>
+          <p>
+            I design and develop responsive websites using HTML, CSS, and
+            JavaScript. I also create visually appealing layouts and user
+            interfaces to enhance user experience. I ensure cross-browser
+            compatibility and mobile responsiveness for seamless access across
+            different devices.
+          </p>
+          <a
+            href="https://github.com/nomusamtshali/Cache-Bank-Business-Landing-Web-Page.git"
+            class="btn"
+            >View More</a
+          >
         </div>
 
         <div class="services-box">
-            <i class="fa-solid fa-palette"></i>
-            <h3>Custom Animation</h3>
-            <p>I design and implement custom animations and interactive elements using CSS animations and Javascript. I create engaging user experiences through subtle animations, transitions, and interactive features that enhance usability and visual appeal.</p>
-            <a href="https://codepen.io/Kelebogile-Mataboge/pen/gOEWoYG" class="btn">View More</a>
-
+          <i class="fa-solid fa-palette"></i>
+          <h3>Custom Animation</h3>
+          <p>
+            I design and implement custom animations and interactive elements
+            using CSS animations and Javascript. I create engaging user
+            experiences through subtle animations, transitions, and interactive
+            features that enhance usability and visual appeal.
+          </p>
+          <a
+            href="https://codepen.io/Kelebogile-Mataboge/pen/gOEWoYG"
+            class="btn"
+            >View More</a
+          >
         </div>
 
         <div class="services-box">
-            <i class="fa-solid fa-wrench"></i>
-            <h3>Debugging Code</h3>
-            <p>I provide code debugging services to identify and resolve any errors or issues that may be present, ensuring your website runs smoothly and efficiently for a great user experience. With my coding practices and debugging tools, I'll ensure your code is optimized and functional across all browsers.</p>
-            <a href="https://github.com/nomusamtshali/NOMMTS365_BCL2401_GroupC_NomusaMtshali_DJS01.git" class="btn">View More</a>
-
+          <i class="fa-solid fa-wrench"></i>
+          <h3>Debugging Code</h3>
+          <p>
+            I provide code debugging services to identify and resolve any errors
+            or issues that may be present, ensuring your website runs smoothly
+            and efficiently for a great user experience. With my coding
+            practices and debugging tools, I'll ensure your code is optimized
+            and functional across all browsers.
+          </p>
+          <a
+            href="https://github.com/nomusamtshali/NOMMTS365_BCL2401_GroupC_NomusaMtshali_DJS01.git"
+            class="btn"
+            >View More</a
+          >
         </div>
-    </div>
-</section>
-<!---->
+      </div>
+    </section>
+    <!---->
 
-<!--PORTFOLIO SECTION-->
-<section class="portfolio" id="portfolio">
-    <h2 class="heading">MY <span>PROJECTS</span></h2>
+    <!--PORTFOLIO SECTION-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">MY <span>PROJECTS</span></h2>
 
-    <div class="portfolio-container">
-        
+      <div class="portfolio-container">
         <div class="portfolio-box">
-            <img src="./images/cart mate.png" alt="cart mate app">
-            <div class="portfolio-layer">
-                <h4>Cart Mate</h4>
-                <p>I built a simpliified functional mobile app with firebase focusing on various CSS and Javascript techniques to achieve a fully functional mobile app. The app also utilizes Firebase Realtime Database to store and synchronize data in real-time.</p>
-                <a href="https://github.com/nomusamtshali/Cart-Mate.git"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-        
-
-        <div class="portfolio-box">
-            <img src="./images/bmi calculator.png" alt="bmi calculator">
-            <div class="portfolio-layer">
-                <h4>BMI Calculator (in progress)</h4>
-                <p>This calculator built with HTML, CSS and JavaScript calculates the user's BMI based on his/her weight(kg) and height(cm).</p>
-                <a href="https://github.com/nomusamtshali/BMI-Calculator.git"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
-        </div>
-
-        <div class="portfolio-box">
-            <img src="./images/cache bank.png" alt="cache bank landing web page">
-            <div class="portfolio-layer">
-                <h4>Cache Bank Business Landing Web Page</h4>
-                <p>I built a responsive business landing web page for a fictitious banking solution, Cache Bank, using HTML5, CSS3 with Tailwind and Javascript.</p>
-                <a href="https://github.com/nomusamtshali/Cache-Bank-Business-Landing-Web-Page.git"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
+          <img src="./images/cart mate.png" alt="cart mate app" />
+          <div class="portfolio-layer">
+            <h4>Cart Mate</h4>
+            <p>
+              I built a simpliified functional mobile app with firebase focusing
+              on various CSS and Javascript techniques to achieve a fully
+              functional mobile app. The app also utilizes Firebase Realtime
+              Database to store and synchronize data in real-time.
+            </p>
+            <a href="https://github.com/nomusamtshali/Cart-Mate.git"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
 
         <div class="portfolio-box">
-            <img src="./images/task management app.png" alt="task management app">
-            <div class="portfolio-layer">
-                <h4>Kanban Task Management App</h4>
-                <p>This is a to-do-app that allows a user to create, edit, delete and change status of a task. I used HTML, CSS and JavaScript.</p>
-                <a href="https://github.com/nomusamtshali/Kanban-Task-Management-App.git"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
+          <img src="./images/bmi calculator.png" alt="bmi calculator" />
+          <div class="portfolio-layer">
+            <h4>BMI Calculator (in progress)</h4>
+            <p>
+              This calculator built with HTML, CSS and JavaScript calculates the
+              user's BMI based on his/her weight(kg) and height(cm).
+            </p>
+            <a href="https://github.com/nomusamtshali/BMI-Calculator.git"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
 
         <div class="portfolio-box">
-            <img src="./images/drumkit.png" alt="drumkit">
-            <div class="portfolio-layer">
-                <h4>Drumkit</h4>
-                <p>I built a drumkit using HTML, CSS and JavaScript. A sound will play once the user presses the alphabets on screen on his/her keyboard.</p>
-                <a href="https://github.com/nomusamtshali/Drum-Kit.git"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
+          <img
+            src="./images/cache bank.png"
+            alt="cache bank landing web page"
+          />
+          <div class="portfolio-layer">
+            <h4>Cache Bank Business Landing Web Page</h4>
+            <p>
+              I built a responsive business landing web page for a fictitious
+              banking solution, Cache Bank, using HTML5, CSS3 with Tailwind and
+              Javascript.
+            </p>
+            <a
+              href="https://github.com/nomusamtshali/Cache-Bank-Business-Landing-Web-Page.git"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
 
         <div class="portfolio-box">
-            <img src="./images/royal bafokeng wellness portal.png" alt="wellness portal">
-            <div class="portfolio-layer">
-                <h4>Community Wellness Portal (in progress)</h4>
-                <p>A wellness portal for the Bafokeng Nation that educates people about their health and provides more information on fitness, support-groups and nutrition.</p>
-                <a href="https://github.com/nomusamtshali/Community-Wellness-Portal.git"><i class="fa-solid fa-up-right-from-square"></i></a>
-            </div>
+          <img
+            src="./images/task management app.png"
+            alt="task management app"
+          />
+          <div class="portfolio-layer">
+            <h4>Kanban Task Management App</h4>
+            <p>
+              This is a to-do-app that allows a user to create, edit, delete and
+              change status of a task. I used HTML, CSS and JavaScript.
+            </p>
+            <a
+              href="https://github.com/nomusamtshali/Kanban-Task-Management-App.git"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
-    </div>
-</section>
-<!---->
 
-<!--CONTACT SECTION-->
-<section class="contact" id="contact">
-    <h2 class="heading">CONTACT <span>ME</span></h2>
+        <div class="portfolio-box">
+          <img src="./images/drumkit.png" alt="drumkit" />
+          <div class="portfolio-layer">
+            <h4>Drumkit</h4>
+            <p>
+              I built a drumkit using HTML, CSS and JavaScript. A sound will
+              play once the user presses the alphabets on screen on his/her
+              keyboard.
+            </p>
+            <a href="https://github.com/nomusamtshali/Drum-Kit.git"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
 
-    <form action="#">
+        <div class="portfolio-box">
+          <img
+            src="./images/royal bafokeng wellness portal.png"
+            alt="wellness portal"
+          />
+          <div class="portfolio-layer">
+            <h4>Community Wellness Portal (in progress)</h4>
+            <p>
+              A wellness portal for the Bafokeng Nation that educates people
+              about their health and provides more information on fitness,
+              support-groups and nutrition.
+            </p>
+            <a
+              href="https://github.com/nomusamtshali/Community-Wellness-Portal.git"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+
+    <!--CONTACT SECTION-->
+    <section class="contact" id="contact">
+      <h2 class="heading">CONTACT <span>ME</span></h2>
+
+      <form action="#">
         <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
-       </div>
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
 
-       <div class="input-box">
-          <input type="number" placeholder="Mobile Number">
-          <input type="text" placeholder="Email Subject">
-       </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
 
-       <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-       <input type="submit" value="Send Message" class="btn">
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!---->
 
-    </form>
-</section>
-<!---->
+    <!--FOOTER DESIGN-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; | 2024 by Nomusa K. Mtshali | All Rights Reserved.
+        </p>
+      </div>
 
-<!--FOOTER DESIGN-->
-<footer class="footer">
-    
-    <div class="footer-text">
-        <p>Copyright &copy; | 2024 by Nomusa K. Mtshali | All Rights Reserved.</p>
-    </div>
-
-    <div class="footer-iconTop">
+      <div class="footer-iconTop">
         <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
-    </div>
-</footer>
-    
+      </div>
+    </footer>
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="./index.js" type="module"></script>
-</body>
+  </body>
 </html>
